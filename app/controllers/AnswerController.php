@@ -46,6 +46,7 @@ class AnswerController{
             'img' => $img
         ]);
         // var_dump($_POST);die;
+        //cvasdf
         header('location: ' . BASE_URL . 'answer_QuesId'. $_POST['question_id']);
         die;
     }
